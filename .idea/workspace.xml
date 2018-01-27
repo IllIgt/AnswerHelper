@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d00bcc6d-03ee-47bd-8d6b-f10219b2f0a3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Controllers/__init__.py" afterPath="$PROJECT_DIR$/Controllers/__init__.py" />
       <change beforePath="$PROJECT_DIR$/Models/__init__.py" afterPath="$PROJECT_DIR$/Models/__init__.py" />
       <change beforePath="$PROJECT_DIR$/Views/__init__.py" afterPath="$PROJECT_DIR$/Views/__init__.py" />
     </list>
