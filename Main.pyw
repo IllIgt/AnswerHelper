@@ -1,6 +1,7 @@
-import re
-from tkinter import filedialog as filedialog
-import tkinter as tk
+
+from Views import *
+from Controllers import *
+
 
 BO = ButtonOptions()
 qarr = curentarr()

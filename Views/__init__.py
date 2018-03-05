@@ -1,1 +1,1 @@
-__all__ = ['SimpleApp', 'Window']
+__all__ = ['SimpleApp.SampleApp', 'Window.NewWindow']
