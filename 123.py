@@ -1,6 +1,7 @@
 import tkinter as tk
 import re
 import tkinter.filedialog as filedialog
+from docxtpl import DocxTemplate
 
 
 
@@ -27,6 +28,7 @@ class SampleApp(tk.Tk):
         self.entry = tk.Text(self,width=60,font="10")
         self.button6 = tk.Button(self.frame, text="Get Exons", command=BO.SingleOptionExonsCount)
         self.button5 = tk.Button(self.frame, text="Save File", command=Controller().save_file)
+        self.button8 = tk.Button(self.frame, text="Save As Answer", command=Controller().save_file_answer)
         self.button = tk.Button(self.frame, text="Get KEGG", command=BO.SingleOptionKEGGgetter)
         self.button7 = tk.Button(self.frame, text="Get OMIM", command=BO.SingleOptionOMIMgetter)
         self.button2 = tk.Button(self, text="Clear right field ", command=Controller().Clear_button_right)
@@ -42,6 +44,7 @@ class SampleApp(tk.Tk):
         self.button4.pack(side='left')
         self.button6.pack(side='left')
         self.button5.pack(side='left')
+        self.button8.pack(side='left')
         self.button2.pack(side='right',fill = 'both')
         self.button3.pack(side='left',fill = 'both')
         self.entry.pack(side='left',fill = 'x')
@@ -552,10 +555,21 @@ class Controller():
         app.entry2.delete('1.0', 'end-1c')
     def Clear_button_left(self):
         app.entry.delete('1.0', 'end-1c')
-    def save_file(self):
-        save_as = filedialog.asksaveasfilename(defaultextension='.txt',filetypes=[('Text File','*.txt')])
+    def save_file_answer(self):
+        save_as = filedialog.asksaveasfilename(defaultextension='.docx',filetypes=[('Text File', '*.docx')])
         try:
-            letter = (self.entry2.get('1.0', 'end-1c'))
+            letter = (app.entry2.get('1.0', 'end-1c'))
+            letter.encode('utf8')
+            document = DocxTemplate("Blank.docx")
+            context = {'results': letter}
+            document.render(context)
+            document.save(save_as)
+        except:
+            pass
+    def save_file(self):
+        save_as = filedialog.asksaveasfilename(defaultextension='.txt', filetypes=[('Text File', '*.txt')])
+        try:
+            letter = (app.entry2.get('1.0', 'end-1c'))
             letter.encode('utf8')
             f = open(save_as, "w")
             f.write(letter)
