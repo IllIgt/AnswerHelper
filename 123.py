@@ -40,7 +40,7 @@ class SampleApp(tk.Tk):
         self.button10.pack(side='top', fill = 'x')
         self.frame.pack(side ='top')
         self.button.pack(side='left')
-        self.button7.pack(side='left')
+        #self.button7.pack(side='left')
         self.button4.pack(side='left')
         self.button6.pack(side='left')
         self.button5.pack(side='left')
@@ -159,6 +159,7 @@ class ButtonOptions():
     def GetFinalArrays(self):
         app.entry2.delete('1.0', 'end-1c')
         app.entry2.insert(1.0,arr.fullarr)
+        self.NW.destroy()
 
     def choose_array(self):
         app.entry.delete('1.0', 'end-1c')
