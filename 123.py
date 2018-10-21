@@ -2,7 +2,7 @@ import tkinter as tk
 import re
 import tkinter.filedialog as filedialog
 from docxtpl import DocxTemplate
-from ExonRaw import ExonRaw as er
+
 
 
 slovar_KEGG = {1:'одну геномную сеть',2:'две геномные сети',3:'три геномные сети',4:'четыре геномные сети',
@@ -195,8 +195,25 @@ class Controller():
         app.entry2.delete('1.0', 'end-1c')
         ARRS = text
         exoncount = []
-        prexon = ''
-        sta = er.sort_exons(text)
+        prexon=''
+        if ARRS.find(',') != -1:
+            ARRS=ARRS.split(",")
+            n=len(ARRS)
+            a = ARRS
+            m=n-1
+            while m>0:
+                for i in range(m):
+                    fir = a[i].split('-')
+                    fir2 =a[i+1].split('-')
+                    if int(fir[0]) > int(fir2[0]):
+                        x=a[i]
+                        a[i]=a[i+1]
+                        a[i+1]=x
+                m=m-1
+            sta=a
+        else:
+            sta=[]
+            sta.append(ARRS)
         for S in sta:
             if S.find('-') != -1:
                 s = S.split("-")
