@@ -4,6 +4,7 @@
     <list default="true" id="d00bcc6d-03ee-47bd-8d6b-f10219b2f0a3" name="Default" comment="">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change beforePath="" afterPath="$PROJECT_DIR$/ExonRaw/Exon.py" />
       <change beforePath="" afterPath="$PROJECT_DIR$/ExonRaw/ExonLocation.py" />
       <change beforePath="" afterPath="$PROJECT_DIR$/ExonRaw/ExonRaw.py" />
@@ -21,6 +22,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/123.py" afterPath="$PROJECT_DIR$/Main.py" />
 >>>>>>> parent of 19a72f8... OOP Refactoring
+=======
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/123.py" afterPath="$PROJECT_DIR$/123.py" />
+>>>>>>> parent of 3503ecb... LongWayToOOPRefctoring
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,6 +48,7 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <file leaf-file-name="Main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -61,9 +68,13 @@
 =======
       <file leaf-file-name="Main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main.py">
+=======
+      <file leaf-file-name="123.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/123.py">
+>>>>>>> parent of 3503ecb... LongWayToOOPRefctoring
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="190" column="24" lean-forward="true" selection-start-line="190" selection-start-column="24" selection-end-line="190" selection-end-column="24" />
+            <state relative-caret-position="285">
+              <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -72,6 +83,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <file leaf-file-name="Arrangement.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Arrangement.py">
@@ -103,6 +115,8 @@
           </provider>
         </entry>
       </file>
+=======
+>>>>>>> parent of 3503ecb... LongWayToOOPRefctoring
 =======
 >>>>>>> parent of 3503ecb... LongWayToOOPRefctoring
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
@@ -162,6 +176,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/123.py" />
 <<<<<<< HEAD
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Exon.py" />
         <option value="$PROJECT_DIR$/numerals.xml" />
         <option value="$PROJECT_DIR$/Arrangement.py" />
@@ -177,6 +192,8 @@
 =======
         <option value="$PROJECT_DIR$/Main.py" />
 >>>>>>> parent of 19a72f8... OOP Refactoring
+=======
+>>>>>>> parent of 3503ecb... LongWayToOOPRefctoring
       </list>
     </option>
   </component>
@@ -230,6 +247,7 @@
               <item name="AnswerHelper" type="462c0819:PsiDirectoryNode" />
             </path>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <path>
               <item name="AnswerHelper" type="b2602c69:ProjectViewProjectNode" />
               <item name="AnswerHelper" type="462c0819:PsiDirectoryNode" />
@@ -245,6 +263,8 @@
 >>>>>>> parent of 3503ecb... LongWayToOOPRefctoring
 =======
 >>>>>>> parent of 19a72f8... OOP Refactoring
+=======
+>>>>>>> parent of 3503ecb... LongWayToOOPRefctoring
           </expand>
           <select />
         </subPane>
@@ -549,6 +569,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32880434" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32700136" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32833788" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -558,8 +579,11 @@
 >>>>>>> parent of 3503ecb... LongWayToOOPRefctoring
 =======
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32658568" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32700136" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> parent of 3503ecb... LongWayToOOPRefctoring
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32833788" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30615166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2932761" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
 >>>>>>> parent of 19a72f8... OOP Refactoring
@@ -603,6 +627,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -623,6 +648,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> parent of 3503ecb... LongWayToOOPRefctoring
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -632,6 +659,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/123.py">
+<<<<<<< HEAD
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="12" />
@@ -653,6 +681,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Main.py">
+=======
+>>>>>>> parent of 3503ecb... LongWayToOOPRefctoring
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="12" />
@@ -670,7 +700,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main.py">
+    <entry file="file://$PROJECT_DIR$/123.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="12" />
@@ -831,6 +861,7 @@
     <entry file="file://$USER_HOME$/anaconda/envs/untitled/lib/python3.5/tkinter/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="225">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
@@ -874,11 +905,16 @@
         <state relative-caret-position="110">
           <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
 >>>>>>> parent of 19a72f8... OOP Refactoring
+=======
+        <state relative-caret-position="63">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+>>>>>>> parent of 3503ecb... LongWayToOOPRefctoring
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/123.py">
+<<<<<<< HEAD
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -903,6 +939,11 @@
 =======
         <state relative-caret-position="171">
           <caret line="190" column="24" lean-forward="true" selection-start-line="190" selection-start-column="24" selection-end-line="190" selection-end-column="24" />
+=======
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+>>>>>>> parent of 3503ecb... LongWayToOOPRefctoring
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
